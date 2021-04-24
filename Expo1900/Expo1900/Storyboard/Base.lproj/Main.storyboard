@@ -59,7 +59,7 @@
                                                 <rect key="frame" x="0.0" y="445" width="374" height="30"/>
                                                 <state key="normal" title="🇰🇷 한국의 출품작 보러가기 🇰🇷"/>
                                                 <connections>
-                                                    <action selector="moveByNavigator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zts-GX-mKP"/>
+                                                    <action selector="moveToTheSecondScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uxi-dy-tLy"/>
                                                 </connections>
                                             </button>
                                         </subviews>
