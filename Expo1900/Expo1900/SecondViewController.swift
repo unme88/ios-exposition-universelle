@@ -45,4 +45,32 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.detailTextLabel?.text = item.shortDescription
         return cell
     }
+    
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+        
+        guard let nextViewController: ItemViewController = segue.destination as? ItemViewController else {
+            return
+        }
+        
+//        guard let cell: UITableViewCell = sender as? UITableViewCell else {
+//            return
+//        }
+
+//        nextViewController.textToSet = cell.textLabel?.text
+//        nextViewController.itemImage = cell.imageView?.image
+//        nextViewController.itemDescription = KoreanItem.fullDescription
+
+        guard let rowNumber = tableView.indexPathForSelectedRow?.row else {
+            return
+        }
+        
+        nextViewController.koreanItem = koreanItems[rowNumber]
+//        nextViewController.textLabel.text = koreanItems[rowNumber].fullDescription
+        
+    }
 }

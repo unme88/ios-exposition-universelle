@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D3E754C2626B9CB002B8F42 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3E754B2626B9CB002B8F42 /* SecondViewController.swift */; };
+		4D55AACB263429AE0002F885 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D55AACA263429AE0002F885 /* ItemViewController.swift */; };
 		4DE6617E261D388300F11E98 /* ExpoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE6617D261D388300F11E98 /* ExpoItem.swift */; };
 		4DE66181261D38C600F11E98 /* KoreanItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE66180261D38C600F11E98 /* KoreanItem.swift */; };
 		C79FF4B52589F401005FB0FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79FF4B42589F401005FB0FD /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		4D3E754B2626B9CB002B8F42 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4D55AACA263429AE0002F885 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItemViewController.swift; path = ../ItemViewController.swift; sourceTree = "<group>"; };
 		4DE6617D261D388300F11E98 /* ExpoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpoItem.swift; sourceTree = "<group>"; };
 		4DE66180261D38C600F11E98 /* KoreanItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreanItem.swift; sourceTree = "<group>"; };
 		C79FF4B12589F401005FB0FD /* Expo1900.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expo1900.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +85,7 @@
 				C79FF4B62589F401005FB0FD /* SceneDelegate.swift */,
 				C79FF4B82589F401005FB0FD /* ViewController.swift */,
 				4D3E754B2626B9CB002B8F42 /* SecondViewController.swift */,
+				4D55AACA263429AE0002F885 /* ItemViewController.swift */,
 				4DE66188261D552D00F11E98 /* Model */,
 				4DE6618B261D556E00F11E98 /* Storyboard */,
 				C79FF4BD2589F404005FB0FD /* Assets.xcassets */,
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D55AACB263429AE0002F885 /* ItemViewController.swift in Sources */,
 				4D3E754C2626B9CB002B8F42 /* SecondViewController.swift in Sources */,
 				4DE6617E261D388300F11E98 /* ExpoItem.swift in Sources */,
 				C79FF4B92589F401005FB0FD /* ViewController.swift in Sources */,
