@@ -9,14 +9,10 @@ import UIKit
 
 class ItemViewController: UIViewController {
     
-//    var textToSet: String?
-//    var itemImage: UIImage?
-//        var itemDescription: String?
     var koreanItem: KoreanItem?
     
     @IBOutlet weak var textLabel: UILabel!
     @IBOutlet weak var itemImageView: UIImageView!
-    //    @IBOutlet weak var descriptionLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,10 +29,6 @@ class ItemViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-
-
-            
     }
     
 

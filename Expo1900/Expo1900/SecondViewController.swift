@@ -56,21 +56,11 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         guard let nextViewController: ItemViewController = segue.destination as? ItemViewController else {
             return
         }
-        
-//        guard let cell: UITableViewCell = sender as? UITableViewCell else {
-//            return
-//        }
-
-//        nextViewController.textToSet = cell.textLabel?.text
-//        nextViewController.itemImage = cell.imageView?.image
-//        nextViewController.itemDescription = KoreanItem.fullDescription
 
         guard let rowNumber = tableView.indexPathForSelectedRow?.row else {
             return
         }
         
         nextViewController.koreanItem = koreanItems[rowNumber]
-//        nextViewController.textLabel.text = koreanItems[rowNumber].fullDescription
-        
     }
 }
